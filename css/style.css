@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: skyblue;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.footer_title {
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer_list li {
+    margin-top: 10px;
+    color: grey;
+    font-family: sans-serif;
+    list-style: none;
+
+}
